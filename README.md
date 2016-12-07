@@ -55,5 +55,9 @@ int main() {
 	cin>>key;
 	cout<<"Идет поиск"<<endl;
 	BinSearch(massive, key, size);
+	if (massive[mid] != 0) 
+	{cout<<"Элемент "<<massive[mid]<<" Отличен от нуля!"<<endl;}
+	else
+	{cout<<"Элемент "<<massive[mid]<<" Ноль!"<<endl; end; }
 	return 0;
-}
+	} }
